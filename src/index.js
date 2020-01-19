@@ -3,8 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Stateless from "./components/Stateless";
+import Statefull from "./containers/Statefull"
+import Home from "./containers/Home/Home";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class MainApp extends React.Component {
+    render() {
+        return (
+            <div>
+                <div style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', backgroundColor:'#AAA', borderRadius:'25px'}}>
+                    <Stateless title="Hello World" />
+                    <Statefull />
+                </div>
+                <div style={{display:'flex', height:150, backgroundColor:'#888'}}></div>
+            </div>
+        )
+    }
+}
+
+
+ReactDOM.render(<Home />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
