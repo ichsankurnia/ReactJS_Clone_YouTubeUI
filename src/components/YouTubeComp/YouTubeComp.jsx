@@ -9,7 +9,7 @@ const Components = (props) => {
                 <p className="time">{props.time}</p>
             </div>
             <div className="main-desc">
-                <img className="img-channel" src={props.account}/>
+                <img className="img-channel" src={props.account} alt="" />
                 <div className="desc">
                     <p className="title">{props.title}</p>
                     <p className="channel">{props.channel}</p>

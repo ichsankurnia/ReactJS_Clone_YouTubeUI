@@ -5,13 +5,13 @@ const Components = (props) => {
     return (
         <div className="box">
             <div className="top">
-                <img src={props.img_user} />
+                <img src={props.img_user} alt="" />
                 <p>{props.channel}</p>
                 <p>{props.time}</p>
             </div>
             <div className="content">
                 <p>{props.content}</p>
-                <img src={props.thumbnail} />
+                <img src={props.thumbnail} alt="" />
             </div>
             <div className="bott">
                 <div className="left-bott">

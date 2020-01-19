@@ -5,10 +5,10 @@ const YouTubeHead = () => {
     return (
         <div className="head">
             <div className="left-head">
-                <img src={require('./../../assets/img/react-thumbnail.png')} />
+                <img src={require('./../../assets/img/react-thumbnail.png')} alt="" />
             </div>
             <div className="right-head">
-                <img className="banner" src={require('./../../assets/img/react-thumbnail.png')}/>
+                <img className="banner" src={require('./../../assets/img/react-thumbnail.png')} alt="" />
                 <div className="bot-banner">
                     <div className="logo"></div>
                     <div>

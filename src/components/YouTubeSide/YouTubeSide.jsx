@@ -4,7 +4,7 @@ import "./YouTubeSide.css";
 const Comp = (props) => {
     return (
         <div className="comp-side">
-            <img src={props.icon} />
+            <img src={props.icon} alt="" />
             <p>{props.title}</p>
         </div>
     )

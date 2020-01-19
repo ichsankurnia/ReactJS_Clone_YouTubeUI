@@ -11,7 +11,7 @@ const YouTubeNav = () => {
                     <div className="line"></div>
                 </div>
                 <div className="yutub-icon">
-                    <img src={require('./../../assets/img/yutub.png')} />
+                    <img src={require('./../../assets/img/yutub.png')} alt="" />
                     <p>The ID</p>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const YouTubeNav = () => {
                 <div className="right-icon"></div>
                 <div className="right-icon"></div>
                 <div className="right-icon"></div>
-                <img src={require('./../../assets/img/user.png')} />
+                <img src={require('./../../assets/img/user.png')} alt="" />
             </div>
         </div>
     )
