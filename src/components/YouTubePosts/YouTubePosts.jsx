@@ -1,5 +1,8 @@
 import React from 'react';
 import "./YouTubePosts.css";
+import userImg from '../../assets/img/user.png'
+import reactThumb from '../../assets/img/react-thumbnail.png'
+import pythonImg from '../../assets/img/python.jpg'
 
 const Components = (props) => {
     return (
@@ -34,11 +37,11 @@ const Components = (props) => {
 }
 
 Components.defaultProps = {
-    img_user: require('./../../assets/img/user.png'),
+    img_user: userImg,
     channel: 'Unknown',
     time: '. 1 day ago',
     content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
-    thumbnail: require('./../../assets/img/react-thumbnail.png'),
+    thumbnail: reactThumb,
     likes: '2.5K',
     comments:'115'
 }
@@ -50,7 +53,7 @@ const YouTubePosts = () => {
                 channel="Python Institute"
                 time=". 3 years ago"
                 content = "Create own model tensorflow using python"
-                thumbnail={require('./../../assets/img/python.jpg')}
+                thumbnail={pythonImg}
                 likes="35K"
                 comments="517"
                 />

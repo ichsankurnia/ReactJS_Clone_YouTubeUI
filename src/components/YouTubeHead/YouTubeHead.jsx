@@ -1,14 +1,15 @@
 import React from 'react';
 import "./YouTubeHead.css";
+import reactThumb from '../../assets/img/react-thumbnail.png'
 
 const YouTubeHead = () => {
     return (
         <div className="head">
             <div className="left-head">
-                <img src={require('./../../assets/img/react-thumbnail.png')} alt="" />
+                <img src={reactThumb} alt="" />
             </div>
             <div className="right-head">
-                <img className="banner" src={require('./../../assets/img/react-thumbnail.png')} alt="" />
+                <img className="banner" src={reactThumb} alt="" />
                 <div className="bot-banner">
                     <div className="logo"></div>
                     <div>

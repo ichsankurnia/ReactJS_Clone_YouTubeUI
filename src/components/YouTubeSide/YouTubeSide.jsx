@@ -1,5 +1,6 @@
 import React from 'react';
 import "./YouTubeSide.css";
+import userImg from '../../assets/img/user.png'
 
 const Comp = (props) => {
     return (
@@ -10,7 +11,7 @@ const Comp = (props) => {
     )
 }
 Comp.defaultProps={
-    icon: require('./../../assets/img/user.png'),
+    icon: userImg,
     title: "Home Page"
 }
 

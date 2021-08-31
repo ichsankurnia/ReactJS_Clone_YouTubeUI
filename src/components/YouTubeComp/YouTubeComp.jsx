@@ -1,5 +1,8 @@
 import React from 'react';
 import "./YouTubeComp.css";
+import reactThumb from '../../assets/img/react-thumbnail.png'
+import userImg from '../../assets/img/user.png'
+import pythonImg from '../../assets/img/python.jpg'
 
 const Components = (props) => {
     return (
@@ -21,9 +24,9 @@ const Components = (props) => {
 }
 
 Components.defaultProps = {
-    thumbnail: require("./../../assets/img/react-thumbnail.png"),
+    thumbnail: reactThumb,
     time: '00.00',
-    account: require('./../../assets/img/user.png'),
+    account: userImg,
     title: 'Title Not Available',
     channel: 'Unknown',
     desc: 'xk x watched . 1 year ago' 
@@ -33,9 +36,9 @@ const YouTubeComp = () => {
     return (
         <div style={{paddingTop:25}}>
             <Components
-                thumbnail={require("./../../assets/img/python.jpg")}
+                thumbnail={pythonImg}
                 time="01.55.25"
-                account={require('./../../assets/img/user.png')}
+                account={userImg}
                 title="Programming Essential in Python"
                 channel="Python Institute"
                 desc="25K x watched . 3 months ago"

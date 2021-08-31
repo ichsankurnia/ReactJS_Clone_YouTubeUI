@@ -1,5 +1,7 @@
 import React from 'react';
 import "./YouTubeNav.css";
+import youtubeImg from '../../assets/img/yutub.png'
+import userImg from '../../assets/img/user.png'
 
 const YouTubeNav = () => {
     return (
@@ -11,7 +13,7 @@ const YouTubeNav = () => {
                     <div className="line"></div>
                 </div>
                 <div className="yutub-icon">
-                    <img src={require('./../../assets/img/yutub.png')} alt="" />
+                    <img src={youtubeImg} alt="" />
                     <p>The ID</p>
                 </div>
             </div>
@@ -23,7 +25,7 @@ const YouTubeNav = () => {
                 <div className="right-icon"></div>
                 <div className="right-icon"></div>
                 <div className="right-icon"></div>
-                <img src={require('./../../assets/img/user.png')} alt="" />
+                <img src={userImg} alt="" />
             </div>
         </div>
     )
